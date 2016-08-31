@@ -10,7 +10,7 @@
 get_header(); ?>
 
 	<div id="primary" class="site-content">
-		<div id="content" role="main">
+		<div id="case-study-content" role="main">
 			<?php while ( have_posts() ) : the_post();
         $services = get_field('services');
         $client = get_field('client');
